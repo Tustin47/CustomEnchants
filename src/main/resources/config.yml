@@ -1,0 +1,24 @@
+#
+# ████████ ██    ██ ███████ ████████ ██ ███    ██
+#    ██    ██    ██ ██         ██    ██ ████   ██
+#    ██    ██    ██ ███████    ██    ██ ██ ██  ██
+#    ██    ██    ██      ██    ██    ██ ██  ██ ██
+#    ██     ██████  ███████    ██    ██ ██   ████
+#
+# Début de la configuration
+Configuration:
+  # Cooldown en seconde entre deux give d'effet d'armure
+  cooldown: 10
+  # Enregistrer le rapport entre Materiel a Cuire et Materiel Cuit
+  # Liste des Materiel ici : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  # Respecter le format : <A CUIRE>:<CUIT>
+  furnace:
+    - "COBBLESTONE:STONE"
+    - "RAW_GOLD:GOLD_INGOT"
+    - "RAW_IRON:IRON_INGOT"
+    - "RAW_COPPER:COPPER_INGOT"
+  # Donner la liste des effets avec la force pour la propriété
+  # Liste des types ici : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+  # Respecter le format <TYPE D'EFFET>:<VALEUR>
+  effects:
+    - "SPEED:1" # Ici ça sera l'effet 1

@@ -1,0 +1,7 @@
+author: Tustin
+version: 0.1
+main: me.tustin.items.ItemsPlugin
+name: CustomEnchants
+api-version: 1.18
+depend:
+  - EconomyShopGUI
